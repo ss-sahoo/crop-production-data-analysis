@@ -1,0 +1,34 @@
+/* General table styles */
+.table {
+  width: 100%;
+  border-collapse: collapse; /* Ensures the borders are collapsed together */
+  margin-top: 20px;
+}
+
+.table th,
+.table td {
+  border: 1px solid #ddd; /* Light grey border for table cells */
+  padding: 8px 12px;
+  text-align: left;
+}
+
+.table th {
+  background-color: #f2f2f2; /* Light grey background for table headers */
+  font-weight: bold;
+}
+
+.table tr:nth-child(even) {
+  background-color: #f9f9f9; /* Alternate row colors */
+}
+
+.table tr:hover {
+  background-color: #eaeaea; /* Highlight row on hover */
+}
+
+.table td {
+  font-size: 14px;
+}
+
+.table th {
+  font-size: 16px;
+}
